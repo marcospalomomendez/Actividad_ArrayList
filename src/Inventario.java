@@ -8,11 +8,6 @@ public class Inventario {
         ArrayList <Producto> inventario = new ArrayList <Producto> ();
         System.out.println("EJERCICIO 1:\n");
         // TODO: Añadir 5 productos al inventario con estos datos:
-        // P001 - Portátil - 899.99€
-        // P002 - Ratón - 25.50€
-        // P003 - Teclado - 45.00€
-        // P004 - Monitor - 199.99€
-        // P005 - Webcam - 59.90€
         inventario.add(new Producto("P001", "Portátil", 899.99));
         System.out.println("Producto P001 - Portátil añadido al inventario.Añadido...");
         inventario.add(new Producto("P002", "Ratón", 25.50));
